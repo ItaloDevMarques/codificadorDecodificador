@@ -1,5 +1,3 @@
-alert("Funcionou");
-
 function criptografarTexto() {
   const regras = {
     e: "enter",
