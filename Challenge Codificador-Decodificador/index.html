@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Codificador/Decodificador</title>
+    </head>
+
+    <body>
+        <header></header>
+        <main class="conversor">
+            <section class="conversor__conteudo">
+                <h1 class="conversor__conteudo__titulo">Challenge ONE</h1>
+                <form class="conversor__conteudo__formulario" action="./site.js">
+                    <div class="conversor__conteudo__campos">
+                        <textarea class="conversor__conteudo__texto" id="texto__para__conversao" cols="75" rows="30" placeholder="Digite seu texto"></textarea>
+                        <textarea readonly class="conversor__conteudo__resultado" id="texto__resultado" cols="30" rows="50"></textarea>
+                    </div>
+                    <!-- <img class="conversor__conteudo__imagem" id="imagem__resultado" src="./assets/figuraResultado.svg" alt=""> --> 
+                   <div class="conversor__conteudo__opcoes">
+                        <input class="conversor__conteudo__opcoes__codificador" onclick="criptografarTexto()" type="button" value="Criptografar">
+                        <input class="conversor__conteudo__opcoes__decodificador" onclick="descriptografarTexto()" type="button" value="Descriptografar">
+                    </div>
+                </form>
+                
+            </section>
+        </main>
+        <footer class="rodape">
+            <p class="rodape__criador">Criado por: <span>Italo Marques Costa</span</p><br>
+            <a href="https://github.com/ItaloDevMarques">Acesse meu GitHub e veja mais projetos.</a>
+            <p class="rodape__copyright">&copy; 2024</p>
+        </footer>
+        <script src="site.js" defer></script>
+    </body>
+
+
+</html>
