@@ -81,6 +81,18 @@ body{
     font-family: 'Inter', sans-serif;
     font-size: 16px;
 }
+.conversor__conteudo__opcoes__copiar {
+    position: absolute;
+    left: 700px;
+    background-color: #1464c7;
+    color: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 24px;
+    width: 328px;
+    height: 67px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
 
 .rodape {
     position: absolute;
