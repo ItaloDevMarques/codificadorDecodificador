@@ -44,7 +44,7 @@ body {
     border-radius: 32px;
     font-family: 'Inter', sans-serif;
     font-size: 32px;
-    padding-top: 10px;
+    padding-top: 15px;
 }
 
 .conversor__conteudo__opcoes {
@@ -103,7 +103,7 @@ body {
 
 .rodape {
     position: absolute;
-    top: 900px;
+    top: 890px;
 }
 
 /* Media queries para ajustar estilos em telas menores */
